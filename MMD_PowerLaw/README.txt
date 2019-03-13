@@ -1,6 +1,6 @@
 1.System requirements
 
-*software: MATLAB,R2018a,64-bit
+*software: MATLAB,R2013b,64-bit
 *computer system: Windows 10 Enterprise,x64
 *No required non-standard hardware
 
@@ -15,19 +15,19 @@ Simply download the code to your computer. Typical time: 10 seconds.
 
 *Instructions to run on data
 For D20130704_Select_ROI.m:
-(i)First download demo data to the same folder with the codes.
-(ii)Start MATLAB, and run "D20130704_Select_ROI.m".
-(iii) When asked the number of images, enter the number of the image you want to analyze, for our demo data, please enter "512". 
-(iv) Choose a type of image you are analyzing. For example, "T" for forward THG image.
-(v) The figure you select will pop out. Then, manually create a ROI on the figure.
-When you are done, right click the mouse and select "Create Mask".
-(vi) If you want to continue creating more ROI or delete the ROI you just created, please enter "A" or "D", respectively.
+(i) First download demo data to the same folder with the codes.
+(ii) Start MATLAB, and run "D20130704_Select_ROI.m".
+(iii) When asked the number of images, enter the number of the image you want to analyze, for our demo data, please enter "512" for the first question and also enter "512" for the second question.
+(iv) Choose a type of image you are analyzing. For example, "T" for forward THG image. Please be sure to enter capital letters.
+(v) The figure you select will pop out. Then, manually create a ROI on the figure by left mouse button and finish the ROI by right mouse button.
+When you are done, right click the mouse inside the chosen ROI and select "Create Mask".
+(vi) If you want to continue creating more ROI or delete the ROI you just created, please enter "A" or "D", respectively. Please be sure to enter capital letters.
 (vii) If you confirm the ROI selection, press "enter" to continue the analysis process.
 
 For other codes:
-(i) D20130704_ErrorDiscussion_20131028_20190308.m", you will get Figure 2 (e).
-(ii) Run "D20130704_Statistics_of_ROI_20190308.m", you will get Figure 2 (g), and a .tif image of Mean Saturation Rate versus TPF(pixel value).
-(iii) Run "D20130704_PolyRegression_20131028_20190308.m", you will get Figure 2 (h) and (i).
+(i) D20130704_ErrorDiscussion_20131028.m", you will get Figure 2 (e).
+(ii) Run "D20130704_Statistics_of_ROI.m", you will get Figure 2 (g).
+(iii) Run "D20130704_PolyRegression_20131028.m", you will get Figure 2 (h) and (i).
 
 *Expected output: As indicated in Instruction
 
